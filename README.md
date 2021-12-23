@@ -1,2 +1,9 @@
 # Banking Application with Grails 5
- Basic Grails 5 Application, might include VueJs 3 into it.
+
+Building basic Grails 5 application
+
+Building using:
+   * Grails - 5.0.3
+   * Java JDK - 16
+   * Gradle - 7.2
+   * Groovy 3.0
