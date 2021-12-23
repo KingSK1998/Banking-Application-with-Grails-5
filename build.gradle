@@ -97,10 +97,11 @@ tasks.withType(Test) {
     useJUnitPlatform()
 }
 
-webdriverBinaries {
-    chromedriver '2.45.0'
-    geckodriver '0.30.0'
-}
+
+//webdriverBinaries {
+//    chromedriver '2.45.0'
+//    geckodriver '0.30.0'
+//}
 
 tasks.withType(Test) {
     systemProperty "geb.env", System.getProperty('geb.env')
